@@ -1,7 +1,7 @@
 #ifndef MERE_FACE_UTILS_H
 #define MERE_FACE_UTILS_H
 
-#include "manifest.h"
+#include "model/manifest.h"
 
 namespace Mere
 {

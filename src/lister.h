@@ -2,7 +2,7 @@
 #define MERE_FACE_LIST_H
 
 #include "global.h"
-#include "face.h"
+#include "model/face.h"
 #include <QObject>
 
 namespace Mere

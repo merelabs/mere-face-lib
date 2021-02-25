@@ -9,29 +9,29 @@ CONFIG += shared
 DEFINES += QT_DEPRECATED_WARNINGS MERE_FACE_LIB
 
 SOURCES += \
-    src/asset.cpp \
-    src/assets.cpp \
-    src/contents.cpp \
+    src/model/face.cpp \
+    src/model/manifest.cpp \
+    src/model/contents.cpp \
+    src/model/assets.cpp \
+    src/model/asset.cpp \
     src/creator.cpp \
-    src/face.cpp \
     src/info.cpp \
     src/installer.cpp \
     src/lister.cpp \
-    src/manifest.cpp \
     src/remover.cpp \
     src/service.cpp \
     src/utils.cpp
 
 HEADERS += \
-    src/asset.h \
-    src/assets.h \
-    src/contents.h \
+    src/model/face.h \
+    src/model/manifest.h \
+    src/model/contents.h \
+    src/model/assets.h \
+    src/model/asset.h \
     src/creator.h \
-    src/face.h \
     src/info.h \
     src/installer.h \
     src/lister.h \
-    src/manifest.h \
     src/global.h \
     src/remover.h \
     src/service.h \

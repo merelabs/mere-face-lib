@@ -1,5 +1,5 @@
 #include "creator.h"
-#include "manifest.h"
+#include "model/manifest.h"
 #include "utils.h"
 
 #include "mere/utils/folderutils.h"

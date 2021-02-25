@@ -2,7 +2,7 @@
 #define MERE_FACE_FACESERVICE_H
 
 #include "global.h"
-#include "face.h"
+#include "model/face.h"
 #include <QDebug>
 #include <QObject>
 
