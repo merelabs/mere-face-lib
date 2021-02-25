@@ -4,13 +4,14 @@
 
 #include "mere/utils/folderutils.h"
 
+#include <fstream>
 #include <iostream>
 
 #include <QUuid>
 #include <QDateTime>
 #include <QFile>
 
-Mere::Face::Creator::Creator(QObject *parent) : QObject(parent)
+Mere::Face::Creator::Creator()
 {
 
 }
@@ -49,6 +50,12 @@ int Mere::Face::Creator::create(const std::string &bundle)
         file.append(".face");
 
 
+    if(std::ifstream(file).good())
+    {
+        std::cout << "another face is already in place." << std::endl;
+        return 3;
+    }
+
     int err = Mere::Utils::FolderUtils::copy(":/face/skel.face", file.c_str());
     if (!err)
     {
@@ -61,6 +68,10 @@ int Mere::Face::Creator::create(const std::string &bundle)
 
 
         err = Utils::update(manifest);
+        if (!err)
+        {
+            std::cout << "face " << bundle << " is created." << std::endl;
+        }
     }
     return err;
 }

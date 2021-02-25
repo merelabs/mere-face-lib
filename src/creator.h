@@ -8,18 +8,13 @@ namespace Mere
 namespace Face
 {
 
-
-class Creator : public QObject
+class Creator
 {
-    Q_OBJECT
 public:
-    explicit Creator(QObject *parent = nullptr);
+    Creator();
     int create(const std::string &bundle);
-
-signals:
 };
 
 }
 }
-
 #endif // MERE_FACE_CREATOR_H
