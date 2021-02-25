@@ -9,11 +9,12 @@ namespace Mere
 namespace Face
 {
 
-class MERE_FACE_LIB_SPEC Install : public QObject
+class MERE_FACE_LIB_SPEC Installer : public QObject
 {
     Q_OBJECT
 public:
-    explicit Install(QObject *parent = nullptr);
+    explicit Installer(QObject *parent = nullptr);
+    int install(const std::string &bundle, const bool &system = false);
 
 signals:
 

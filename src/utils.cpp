@@ -4,6 +4,12 @@
 #include <QTextStream>
 
 //static
+bool Mere::Face::Utils::valid(const std::string &bundle)
+{
+
+}
+
+//static
 int Mere::Face::Utils::update(const Manifest &manifest)
 {
     QFile file(manifest.file().c_str());

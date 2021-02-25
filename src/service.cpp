@@ -1,5 +1,7 @@
 #include "service.h"
 
+//#include "mere/face/installer.h"
+
 #include <stdlib.h>
 #include <fstream>
 #include <QDir>

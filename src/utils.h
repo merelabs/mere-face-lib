@@ -12,6 +12,7 @@ class Utils
 {
     Utils() = default;
 public:
+    static bool valid(const std::string &bundle);
     static int update(const Manifest &manifest);
 };
 
