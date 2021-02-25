@@ -18,7 +18,7 @@ SOURCES += \
     src/installer.cpp \
     src/list.cpp \
     src/manifest.cpp \
-    src/remove.cpp \
+    src/remover.cpp \
     src/service.cpp \
     src/utils.cpp
 
@@ -32,8 +32,8 @@ HEADERS += \
     src/installer.h \
     src/list.h \
     src/manifest.h \
-    src/remove.h\
     src/global.h \
+    src/remover.h \
     src/service.h \
     src/utils.h
 

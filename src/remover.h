@@ -9,11 +9,13 @@ namespace Mere
 namespace Face
 {
 
-class MERE_FACE_LIB_SPEC Remove : public QObject
+class MERE_FACE_LIB_SPEC Remover : public QObject
 {
     Q_OBJECT
 public:
-    explicit Remove(QObject *parent = nullptr);
+    explicit Remover(QObject *parent = nullptr);
+    int remove(const std::string &bundle, const bool &system = false);
+
 
 signals:
 
