@@ -10,11 +10,11 @@ namespace Mere
 namespace Face
 {
 
-class MERE_FACE_LIB_SPEC List : public QObject
+class MERE_FACE_LIB_SPEC Lister : public QObject
 {
     Q_OBJECT
 public:
-    explicit List(QObject *parent = nullptr);
+    explicit Lister(QObject *parent = nullptr);
 
     std::vector<Face> list() const;
 

@@ -16,7 +16,7 @@ SOURCES += \
     src/face.cpp \
     src/info.cpp \
     src/installer.cpp \
-    src/list.cpp \
+    src/lister.cpp \
     src/manifest.cpp \
     src/remover.cpp \
     src/service.cpp \
@@ -30,7 +30,7 @@ HEADERS += \
     src/face.h \
     src/info.h \
     src/installer.h \
-    src/list.h \
+    src/lister.h \
     src/manifest.h \
     src/global.h \
     src/remover.h \
