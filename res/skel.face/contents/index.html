@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <title>Mere Shell</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/runner.css">
+
+  <script type="text/javascript" src="assets/lib/qtwebchannel/qwebchannel.js"></script>
+  <script type="text/javascript" src="assets/js/channel.js"></script>
+  <script type="text/javascript" src="assets/js/connect.js"></script>
+  <script type="text/javascript" src="assets/js/runner.js"></script>
+</head>
+
+<body class="screen">
+    <div class="runner">
+        <div class="runner-box">
+            <div class="prompt">
+                <h3>What do you want to run now?</h3>
+                <input type="text" onkeypress="run(event, this.value)">
+            </div>
+            <div class="message">Press enter to set your focus</div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/face">
+        <file>skel.face/manifest</file>
+        <file>skel.face/contents/index.html</file>
+        <file>skel.face/contents/assets/css/runner.css</file>
+        <file>skel.face/contents/assets/css/style.css</file>
+        <file>skel.face/contents/assets/img/logo.png</file>
+        <file>skel.face/contents/assets/js/channel.js</file>
+        <file>skel.face/contents/assets/js/connect.js</file>
+        <file>skel.face/contents/assets/js/runner.js</file>
+        <file>skel.face/contents/assets/lib/qtwebchannel/qwebchannel.js</file>
+    </qresource>
+</RCC>

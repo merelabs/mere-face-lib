@@ -1,0 +1,59 @@
+h3
+{
+    padding: 0;
+    margin: 0
+}
+
+input
+{
+    font-size: 120%;
+    line-height: 120%
+}
+
+.runner
+{
+    text-align: center;
+}
+
+.runner-box
+{
+    position: relative;
+    margin-top: 15%;
+}
+
+.prompt
+{
+    width: 100%;
+    font-size: 187.5%;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+
+.prompt h3
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+.prompt input
+{
+    width: 13.8em;
+    margin: 0 auto;
+    padding-top: 15px;
+    background: 0;
+
+}
+
+.prompt input
+{
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+/*    font-size: 75%;*/
+}
+
+.prompt input
+{
+    border: 0;
+    border-bottom: 1px solid #fff;
+}

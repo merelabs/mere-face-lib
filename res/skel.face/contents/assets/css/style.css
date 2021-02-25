@@ -1,0 +1,25 @@
+body
+{
+    background: #0B6623;
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, .1);
+    transition: -webkit-filter .5s ease;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.screen
+{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-position: 2% 97%;
+    background-size: 128px auto;
+}
+
+input:focus
+{
+    outline: none;
+}
