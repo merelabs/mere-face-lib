@@ -77,3 +77,23 @@ void Mere::Face::Manifest::hash(const std::string &hash)
 }
 
 
+std::string Mere::Face::Manifest::author() const
+{
+    return m_author;
+}
+
+void Mere::Face::Manifest::author(const std::string &author)
+{
+    m_author = author;
+}
+
+std::string Mere::Face::Manifest::version() const
+{
+    return m_version;
+}
+
+void Mere::Face::Manifest::version(const std::string &version)
+{
+    m_version = version;
+}
+

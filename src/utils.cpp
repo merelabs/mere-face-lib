@@ -67,6 +67,8 @@ int Mere::Face::Utils::update(const Manifest &manifest)
         stream << "mere.face.note=" << manifest.note().c_str() << Qt::endl;
         stream << "mere.face.when=" << manifest.when().c_str() << Qt::endl;
         stream << "mere.face.site=" << manifest.site().c_str() << Qt::endl;
+        stream << "mere.face.author=" << "your name" << Qt::endl;
+        stream << "mere.face.version=" << "1.0" << Qt::endl;
         stream << "mere.face.hash=" << manifest.hash().c_str() << Qt::endl;
 
         file.close();

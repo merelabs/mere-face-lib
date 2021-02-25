@@ -35,6 +35,12 @@ public:
     std::string hash() const;
     void hash(const std::string &hash);
 
+    std::string author() const;
+    void author(const std::string &author);
+
+    std::string version() const;
+    void version(const std::string &version);
+
 private:
     std::string m_uuid;
     std::string m_name;
@@ -42,6 +48,9 @@ private:
     std::string m_when;
     std::string m_site;
     std::string m_hash;
+
+    std::string m_author;
+    std::string m_version;
 
     std::string m_fqfn;
 };
