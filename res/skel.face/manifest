@@ -1,0 +1,6 @@
+mere.face.uuid=${uuid}
+mere.face.name=${name}
+mere.face.note=${note}
+mere.face.site=${site}
+mere.face.when=${when}
+mere.face.hash=${hash}
